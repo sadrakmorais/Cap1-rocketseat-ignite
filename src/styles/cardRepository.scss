@@ -1,0 +1,41 @@
+li{
+  width: 100%;
+  max-width: 350px;
+  background: #222;
+  border-radius: .5rem;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  font-family: 'Ubuntu', sans-serif;
+  justify-content: space-between;
+  transform:scale(.9);
+  transition: .3s all ease;
+
+  &:hover{
+  transform:scale(1);
+  border-radius: 0;
+  }
+
+  strong{
+  font-size: 20px;
+  color: #f1f1f1;
+
+  }
+
+  p{
+  font-size: 16px;
+  color: #f1f1f1;
+
+  }
+  a{
+    text-decoration: none;
+    background: #f1f1f1;
+    max-width: 100px;
+    text-align: center;
+    border: 2px solid #333;
+    color: #333;
+    padding: 5px;
+    margin-top: 20px;
+  
+  }
+}
